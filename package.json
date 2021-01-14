@@ -1,0 +1,33 @@
+{
+    "name": "wa",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+        "@open-wa/wa-automate": "^3.1.12",
+        "axios": "^0.21.1",
+        "body-parser": "^1.19.0",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "module-alias": "^2.2.2",
+        "mongoose": "^5.11.10",
+        "validatorjs": "^3.22.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.6"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "nodemonConfig": {
+        "ignore": [
+            "*.data.json"
+        ]
+    },
+    "_moduleAliases": {
+        "@": "."
+    }
+}
