@@ -6,7 +6,7 @@ module.exports = {
     handler :  async (message, client, session, args, options) => {
     
     const helpText =  `
-🤖 BardizBot V1
+🤖 BotValak V1
 
 
 Created by Bardizba Z. follow me here,
